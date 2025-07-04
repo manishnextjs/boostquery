@@ -1,29 +1,17 @@
 // pages/_app.js
 
+// Global & framework styles
 import '../styles/style.css';
-// import 'bootstrap/dist/css/bootstrap.min.css'; // if using Bootstrap
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import '../styles/globals.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import '../styles/style.css';
+
+// Swiper styles (for sliders/carousels)
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-
-
-// import '../styles/bootstrap-custom.scss';
-// import '@/styles/globals.css'; // or your own global CSS
-import '../styles/globals.scss'; // or your correct path
-
-
-
-
-// import '../styles/globals.css'
-
-
+// Google Fonts (Next.js way)
 import { Montserrat, Instrument_Sans } from 'next/font/google';
 
 const montserrat = Montserrat({
@@ -38,6 +26,7 @@ const instrumentSans = Instrument_Sans({
   variable: '--font-instrument-sans',
 });
 
+// App wrapper
 export default function App({ Component, pageProps }) {
   return (
     <main className={`${montserrat.variable} ${instrumentSans.variable}`}>
