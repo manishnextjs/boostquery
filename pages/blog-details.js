@@ -111,15 +111,15 @@ export default function BlogDetails() {
             {/* Main Blog Content */}
             <article className="blog-detail-content col-lg-8">
               <h2>
-                You've heard it before: 90% of startups vanish, often victims of inadequate research.
-                With these 7 steps and a handful of free tools, you'll 10x your chances of success.
+                You&rsquo;ve heard it before: 90% of startups vanish, often victims of inadequate research.
+                With these 7 steps and a handful of free tools, you&rsquo;ll 10x your chances of success.
               </h2>
 
               <Image src={blogDetails1} alt="Startup research guide" layout="responsive" />
 
               <div className="step-content" id="step1">
                 <h3>Step 1: Define the Problem</h3>
-                <p>Every empire's construction begins with understanding its foundation...</p>
+                <p>Every empire&rsquo;s construction begins with understanding its foundation...</p>
                 <p><strong>Approach:</strong> In this step, your task is to crystallize the problem...</p>
               </div>
             </article>
