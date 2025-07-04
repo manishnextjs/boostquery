@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="footer-logo">
             <Link href="/">
               <Image
-                src="/images/boostquery logo.svg"
+                src="/images/boostquery-logo.svg"
                 alt="BoostQuery Logo"
                 width={150}
                 height={40}
