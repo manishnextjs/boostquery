@@ -26,11 +26,10 @@ const instrumentSans = Instrument_Sans({
   variable: '--font-instrument-sans',
 });
 
-// App wrapper
 export default function App({ Component, pageProps }) {
   return (
-    <main className={`${montserrat.variable} ${instrumentSans.variable}`}>
+    <div className={`${montserrat.variable} ${instrumentSans.variable}`}>
       <Component {...pageProps} />
-    </main>
+    </div>
   );
 }
