@@ -15,7 +15,7 @@ const Navbar = () => {
               <div className="header-logo">
                 <Link href="/">
                   <Image
-                    src="/images/Boostquery logo.svg"
+                    src="/images/Boostquery-logo.svg"
                     alt="BoostQuery Logo"
                     width={140}
                     height={40}
